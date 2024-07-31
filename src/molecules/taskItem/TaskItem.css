@@ -1,0 +1,23 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.task-item:hover {
+  transform: scale(1.05);
+}
+
+.input-field,
+.checkbox {
+  transition: all 0.3s ease;
+}
+
+.button:hover,
+.input-field:hover,
+.checkbox:hover {
+  background-color: #f0f0f0;
+}

@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a to-do list application built using the principles of Atomic Design. The project is structured to ensure reusability and maintainability of components.
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+- **Atoms**: Basic building blocks such as buttons, input fields, and checkboxes.
+- **Molecules**: Combinations of atoms, like task items.
+- **Organisms**: Groups of molecules, such as the task list.
+- **Templates**: Structures of organisms and atoms, like the task template.
+- **Pages**: Complete pages that use templates, like the to-do page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Add tasks
+- Mark tasks as completed
+- Remove tasks
+- Persist tasks using local storage
+- Edit task names
+- Responsive design
+- CSS animations and transitions
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- TypeScript
+- CSS
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Additional Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Local storage to persist tasks.
+- Animations and transitions for better user experience.
+- Linting and formatting with ESLint and Prettier.
+- Unit tests with Jest.
 
-### `npm run eject`
+## Atomic Design Choices
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Atoms**: Simple components that can be reused across the application.
+- **Molecules**: Combinations of atoms that form more complex components.
+- **Organisms**: Groups of molecules that form distinct sections of the application.
+- **Templates**: Structures that combine organisms and atoms to form the layout of the application.
+- **Pages**: Complete pages that use templates to display the full application.

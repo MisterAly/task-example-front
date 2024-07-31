@@ -18,10 +18,7 @@ This is a to-do list application built using the principles of Atomic Design. Th
 - Mark tasks as completed
 - Remove tasks
 - Persist tasks using local storage
-- Edit task names
-- Responsive design
-- CSS animations and transitions
-
+- 
 ## Technologies
 
 - React
@@ -38,14 +35,5 @@ This is a to-do list application built using the principles of Atomic Design. Th
 ## Additional Features
 
 - Local storage to persist tasks.
-- Animations and transitions for better user experience.
 - Linting and formatting with ESLint and Prettier.
 - Unit tests with Jest.
-
-## Atomic Design Choices
-
-- **Atoms**: Simple components that can be reused across the application.
-- **Molecules**: Combinations of atoms that form more complex components.
-- **Organisms**: Groups of molecules that form distinct sections of the application.
-- **Templates**: Structures that combine organisms and atoms to form the layout of the application.
-- **Pages**: Complete pages that use templates to display the full application.

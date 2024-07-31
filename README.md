@@ -33,6 +33,7 @@ This is a to-do list application built using the principles of Atomic Design. Th
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
 3. Run `npm start` to start the application.
+4. Run `npm test` to test the application.
 
 ## Additional Features
 

@@ -18,7 +18,7 @@ This is a to-do list application built using the principles of Atomic Design. Th
 - Mark tasks as completed
 - Remove tasks
 - Persist tasks using local storage
-- 
+  
 ## Technologies
 
 - React
